@@ -1,0 +1,6 @@
+framework module Pods_SkyshiMVVM {
+  umbrella header "Pods-SkyshiMVVM-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D660CEDD46FD5461C80EFB5 /* Pods_SkyshiMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1FDC713EB052548D094681F /* Pods_SkyshiMVVM.framework */; };
+		5A75F9FD21018B4900863726 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A75F9FC21018B4900863726 /* HomeViewController.swift */; };
+		5A75F9FF21018BA100863726 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A75F9FE21018BA100863726 /* LoginVM.swift */; };
+		5A75FA0121018BBF00863726 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A75FA0021018BBF00863726 /* Login.swift */; };
+		5A75FA032101A6A000863726 /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A75FA022101A6A000863726 /* LoginAPI.swift */; };
+		5A875DC321005D2B001864BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A875DC221005D2B001864BF /* AppDelegate.swift */; };
+		5A875DC521005D2B001864BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A875DC421005D2B001864BF /* ViewController.swift */; };
+		5A875DC821005D2B001864BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A875DC621005D2B001864BF /* Main.storyboard */; };
+		5A875DCA21005D2B001864BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A875DC921005D2B001864BF /* Assets.xcassets */; };
+		5A875DCD21005D2B001864BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A875DCB21005D2B001864BF /* LaunchScreen.storyboard */; };
+		5A875DD821005D2B001864BF /* SkyshiMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A875DD721005D2B001864BF /* SkyshiMVVMTests.swift */; };
+		5A875DE321005D2B001864BF /* SkyshiMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A875DE221005D2B001864BF /* SkyshiMVVMUITests.swift */; };
+		5A875DF1210060BB001864BF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A875DF0210060BB001864BF /* TableViewCell.swift */; };
+		5A875DF521006164001864BF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A875DF421006164001864BF /* Movie.swift */; };
+		5A875DF721006173001864BF /* MovieAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A875DF621006173001864BF /* MovieAPI.swift */; };
+		5A875DFA210084FC001864BF /* MovieVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A875DF9210084FC001864BF /* MovieVM.swift */; };
+		5A875E0021016F97001864BF /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A875DFF21016F97001864BF /* Helper.swift */; };
+		5A875E0221017358001864BF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A875E0121017358001864BF /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A875DD421005D2B001864BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A875DB721005D2B001864BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A875DBE21005D2B001864BF;
+			remoteInfo = SkyshiMVVM;
+		};
+		5A875DDF21005D2B001864BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A875DB721005D2B001864BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A875DBE21005D2B001864BF;
+			remoteInfo = SkyshiMVVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DD619ADA22A535C700A0A97 /* Pods-SkyshiMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyshiMVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyshiMVVM/Pods-SkyshiMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		5A75F9FC21018B4900863726 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5A75F9FE21018BA100863726 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		5A75FA0021018BBF00863726 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		5A75FA022101A6A000863726 /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
+		5A875DBF21005D2B001864BF /* SkyshiMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyshiMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A875DC221005D2B001864BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A875DC421005D2B001864BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A875DC721005D2B001864BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A875DC921005D2B001864BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A875DCC21005D2B001864BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A875DCE21005D2B001864BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A875DD321005D2B001864BF /* SkyshiMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyshiMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A875DD721005D2B001864BF /* SkyshiMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyshiMVVMTests.swift; sourceTree = "<group>"; };
+		5A875DD921005D2B001864BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A875DDE21005D2B001864BF /* SkyshiMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyshiMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A875DE221005D2B001864BF /* SkyshiMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyshiMVVMUITests.swift; sourceTree = "<group>"; };
+		5A875DE421005D2B001864BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A875DF0210060BB001864BF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5A875DF421006164001864BF /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		5A875DF621006173001864BF /* MovieAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPI.swift; sourceTree = "<group>"; };
+		5A875DF9210084FC001864BF /* MovieVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVM.swift; sourceTree = "<group>"; };
+		5A875DFF21016F97001864BF /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		5A875E0121017358001864BF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B0E04C32FAB33A1BFD2E93B0 /* Pods-SkyshiMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyshiMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyshiMVVM/Pods-SkyshiMVVM.release.xcconfig"; sourceTree = "<group>"; };
+		E1FDC713EB052548D094681F /* Pods_SkyshiMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyshiMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A875DBC21005D2B001864BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D660CEDD46FD5461C80EFB5 /* Pods_SkyshiMVVM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A875DD021005D2B001864BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A875DDB21005D2B001864BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37CC6524CF5A65775C1547C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1FDC713EB052548D094681F /* Pods_SkyshiMVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A875DB621005D2B001864BF = {
+			isa = PBXGroup;
+			children = (
+				5A875DFE21016F7D001864BF /* Helper */,
+				5A875DF8210084EB001864BF /* ViewModel */,
+				5A875DF32100613E001864BF /* API */,
+				5A875DF221006138001864BF /* Model */,
+				5A875DC121005D2B001864BF /* SkyshiMVVM */,
+				5A875DD621005D2B001864BF /* SkyshiMVVMTests */,
+				5A875DE121005D2B001864BF /* SkyshiMVVMUITests */,
+				5A875DC021005D2B001864BF /* Products */,
+				8F43BA44A1B4F09F54767DCA /* Pods */,
+				37CC6524CF5A65775C1547C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A875DC021005D2B001864BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A875DBF21005D2B001864BF /* SkyshiMVVM.app */,
+				5A875DD321005D2B001864BF /* SkyshiMVVMTests.xctest */,
+				5A875DDE21005D2B001864BF /* SkyshiMVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A875DC121005D2B001864BF /* SkyshiMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				5A875DC221005D2B001864BF /* AppDelegate.swift */,
+				5A75F9FC21018B4900863726 /* HomeViewController.swift */,
+				5A875DC421005D2B001864BF /* ViewController.swift */,
+				5A875E0121017358001864BF /* DetailViewController.swift */,
+				5A875DF0210060BB001864BF /* TableViewCell.swift */,
+				5A875DC621005D2B001864BF /* Main.storyboard */,
+				5A875DC921005D2B001864BF /* Assets.xcassets */,
+				5A875DCB21005D2B001864BF /* LaunchScreen.storyboard */,
+				5A875DCE21005D2B001864BF /* Info.plist */,
+			);
+			path = SkyshiMVVM;
+			sourceTree = "<group>";
+		};
+		5A875DD621005D2B001864BF /* SkyshiMVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A875DD721005D2B001864BF /* SkyshiMVVMTests.swift */,
+				5A875DD921005D2B001864BF /* Info.plist */,
+			);
+			path = SkyshiMVVMTests;
+			sourceTree = "<group>";
+		};
+		5A875DE121005D2B001864BF /* SkyshiMVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A875DE221005D2B001864BF /* SkyshiMVVMUITests.swift */,
+				5A875DE421005D2B001864BF /* Info.plist */,
+			);
+			path = SkyshiMVVMUITests;
+			sourceTree = "<group>";
+		};
+		5A875DF221006138001864BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A875DF421006164001864BF /* Movie.swift */,
+				5A75FA0021018BBF00863726 /* Login.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A875DF32100613E001864BF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5A875DF621006173001864BF /* MovieAPI.swift */,
+				5A75FA022101A6A000863726 /* LoginAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5A875DF8210084EB001864BF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5A875DF9210084FC001864BF /* MovieVM.swift */,
+				5A75F9FE21018BA100863726 /* LoginVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5A875DFE21016F7D001864BF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5A875DFF21016F97001864BF /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8F43BA44A1B4F09F54767DCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DD619ADA22A535C700A0A97 /* Pods-SkyshiMVVM.debug.xcconfig */,
+				B0E04C32FAB33A1BFD2E93B0 /* Pods-SkyshiMVVM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A875DBE21005D2B001864BF /* SkyshiMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A875DE721005D2B001864BF /* Build configuration list for PBXNativeTarget "SkyshiMVVM" */;
+			buildPhases = (
+				52BABE82B1632F7CA01A4FCC /* [CP] Check Pods Manifest.lock */,
+				5A875DBB21005D2B001864BF /* Sources */,
+				5A875DBC21005D2B001864BF /* Frameworks */,
+				5A875DBD21005D2B001864BF /* Resources */,
+				A1821C8197420854F03E00C8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyshiMVVM;
+			productName = SkyshiMVVM;
+			productReference = 5A875DBF21005D2B001864BF /* SkyshiMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A875DD221005D2B001864BF /* SkyshiMVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A875DEA21005D2B001864BF /* Build configuration list for PBXNativeTarget "SkyshiMVVMTests" */;
+			buildPhases = (
+				5A875DCF21005D2B001864BF /* Sources */,
+				5A875DD021005D2B001864BF /* Frameworks */,
+				5A875DD121005D2B001864BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A875DD521005D2B001864BF /* PBXTargetDependency */,
+			);
+			name = SkyshiMVVMTests;
+			productName = SkyshiMVVMTests;
+			productReference = 5A875DD321005D2B001864BF /* SkyshiMVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A875DDD21005D2B001864BF /* SkyshiMVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A875DED21005D2B001864BF /* Build configuration list for PBXNativeTarget "SkyshiMVVMUITests" */;
+			buildPhases = (
+				5A875DDA21005D2B001864BF /* Sources */,
+				5A875DDB21005D2B001864BF /* Frameworks */,
+				5A875DDC21005D2B001864BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A875DE021005D2B001864BF /* PBXTargetDependency */,
+			);
+			name = SkyshiMVVMUITests;
+			productName = SkyshiMVVMUITests;
+			productReference = 5A875DDE21005D2B001864BF /* SkyshiMVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A875DB721005D2B001864BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Skyshi;
+				TargetAttributes = {
+					5A875DBE21005D2B001864BF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5A875DD221005D2B001864BF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A875DBE21005D2B001864BF;
+					};
+					5A875DDD21005D2B001864BF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A875DBE21005D2B001864BF;
+					};
+				};
+			};
+			buildConfigurationList = 5A875DBA21005D2B001864BF /* Build configuration list for PBXProject "SkyshiMVVM" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A875DB621005D2B001864BF;
+			productRefGroup = 5A875DC021005D2B001864BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A875DBE21005D2B001864BF /* SkyshiMVVM */,
+				5A875DD221005D2B001864BF /* SkyshiMVVMTests */,
+				5A875DDD21005D2B001864BF /* SkyshiMVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A875DBD21005D2B001864BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A875DCD21005D2B001864BF /* LaunchScreen.storyboard in Resources */,
+				5A875DCA21005D2B001864BF /* Assets.xcassets in Resources */,
+				5A875DC821005D2B001864BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A875DD121005D2B001864BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A875DDC21005D2B001864BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52BABE82B1632F7CA01A4FCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyshiMVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1821C8197420854F03E00C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SkyshiMVVM/Pods-SkyshiMVVM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyshiMVVM/Pods-SkyshiMVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A875DBB21005D2B001864BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A875DF1210060BB001864BF /* TableViewCell.swift in Sources */,
+				5A75F9FF21018BA100863726 /* LoginVM.swift in Sources */,
+				5A875E0021016F97001864BF /* Helper.swift in Sources */,
+				5A875DC521005D2B001864BF /* ViewController.swift in Sources */,
+				5A75FA032101A6A000863726 /* LoginAPI.swift in Sources */,
+				5A875DF521006164001864BF /* Movie.swift in Sources */,
+				5A875DFA210084FC001864BF /* MovieVM.swift in Sources */,
+				5A75F9FD21018B4900863726 /* HomeViewController.swift in Sources */,
+				5A875DC321005D2B001864BF /* AppDelegate.swift in Sources */,
+				5A875DF721006173001864BF /* MovieAPI.swift in Sources */,
+				5A75FA0121018BBF00863726 /* Login.swift in Sources */,
+				5A875E0221017358001864BF /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A875DCF21005D2B001864BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A875DD821005D2B001864BF /* SkyshiMVVMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A875DDA21005D2B001864BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A875DE321005D2B001864BF /* SkyshiMVVMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A875DD521005D2B001864BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A875DBE21005D2B001864BF /* SkyshiMVVM */;
+			targetProxy = 5A875DD421005D2B001864BF /* PBXContainerItemProxy */;
+		};
+		5A875DE021005D2B001864BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A875DBE21005D2B001864BF /* SkyshiMVVM */;
+			targetProxy = 5A875DDF21005D2B001864BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A875DC621005D2B001864BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A875DC721005D2B001864BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A875DCB21005D2B001864BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A875DCC21005D2B001864BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A875DE521005D2B001864BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A875DE621005D2B001864BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A875DE821005D2B001864BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD619ADA22A535C700A0A97 /* Pods-SkyshiMVVM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkyshiMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Skyshi.SkyshiMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A875DE921005D2B001864BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E04C32FAB33A1BFD2E93B0 /* Pods-SkyshiMVVM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkyshiMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Skyshi.SkyshiMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A875DEB21005D2B001864BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkyshiMVVMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Skyshi.SkyshiMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyshiMVVM.app/SkyshiMVVM";
+			};
+			name = Debug;
+		};
+		5A875DEC21005D2B001864BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkyshiMVVMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Skyshi.SkyshiMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyshiMVVM.app/SkyshiMVVM";
+			};
+			name = Release;
+		};
+		5A875DEE21005D2B001864BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkyshiMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Skyshi.SkyshiMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkyshiMVVM;
+			};
+			name = Debug;
+		};
+		5A875DEF21005D2B001864BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkyshiMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Skyshi.SkyshiMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkyshiMVVM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A875DBA21005D2B001864BF /* Build configuration list for PBXProject "SkyshiMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A875DE521005D2B001864BF /* Debug */,
+				5A875DE621005D2B001864BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A875DE721005D2B001864BF /* Build configuration list for PBXNativeTarget "SkyshiMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A875DE821005D2B001864BF /* Debug */,
+				5A875DE921005D2B001864BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A875DEA21005D2B001864BF /* Build configuration list for PBXNativeTarget "SkyshiMVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A875DEB21005D2B001864BF /* Debug */,
+				5A875DEC21005D2B001864BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A875DED21005D2B001864BF /* Build configuration list for PBXNativeTarget "SkyshiMVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A875DEE21005D2B001864BF /* Debug */,
+				5A875DEF21005D2B001864BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A875DB721005D2B001864BF /* Project object */;
+}
